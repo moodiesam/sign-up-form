@@ -23,10 +23,16 @@ body {
     flex-direction: row;
     justify-content: center;
     font-size: xx-large;
-    color: white;
-    background-color: rgba(0, 0, 0, .5);
+    color: black;
+    background-color: rgba(255, 255, 255, .7);
     width: 100%;
     padding: 10px;
+}
+
+#company {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 #image {
@@ -38,11 +44,11 @@ body {
 }
 
 .picture {
-    background-image: url(./images/bee.jpg);
+    background-image: url(./images/soap.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40vw;
+    width: 50vw;
 }
 
 #main-info {
@@ -50,12 +56,13 @@ body {
     flex-direction: column;
     min-width: 50%;
     justify-content: center;
-    background-color: goldenrod;
+    background-color: rgb(68, 117, 41);
 }
 
 #message {
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 40px;
+    color: rgb(255, 255, 255);
 }
 
 #message1 {
@@ -96,14 +103,14 @@ fieldset {
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: white;
-    border-style: none;
+    background-color: rgb(238, 238, 238);
+    border: none;
 }
 
 legend {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 50px;
     font-size: x-large;
     font-weight: bold;
 }
@@ -129,10 +136,24 @@ button {
 input {
     border-radius: 4px;
     padding: 4px;
-    border: 1px solid black;
+    border: 1px solid rgb(200, 200, 200);
 }
 
 button {
-    border-radius: 4px;
+    border-radius: 6px;
     font-size: larger;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+}
+
+#link,
+#btn {
+    margin-left: 50px;
+}
+
+a {
+    color: rgb(200,200,200);
+    text-decoration: none;
 }
