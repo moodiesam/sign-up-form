@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-page {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.message {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    padding: 10px;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.picture {
+    background-image: url(./images/bee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+#main-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    justify-content: center;
+    background-color: goldenrod;
+}
+
+#message {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#message1 {
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+
+#message2 {
+    margin-top: 10px;
+}
+
+#message3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#input-section {
+    display: flex;  
+    flex-direction: row;
+}
+
+#left-row, 
+#right-row {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    margin: 30px;
+}
+
+fieldset {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-style: none;
+}
+
+legend {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+    width: 210px;
+    padding: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid black;
+}
+
+button {
+    border-radius: 4px;
+    font-size: larger;
+}
