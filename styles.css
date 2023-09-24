@@ -35,6 +35,12 @@ body {
     align-self: center;
 }
 
+#credit {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
 #image {
     display: flex;
     flex-direction: column;
@@ -49,6 +55,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 50vw;
+    
 }
 
 #main-info {
@@ -56,7 +63,7 @@ body {
     flex-direction: column;
     min-width: 50%;
     justify-content: center;
-    background-color: rgb(68, 117, 41);
+    background-color: rgb(70, 82, 59);
 }
 
 #message {
@@ -83,11 +90,14 @@ body {
     display: flex;  
     flex-direction: row;
 }
-
-#left-row, 
+ 
 #right-row {
     margin-left: 50px;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: space-around;
 }
 
 #information {
@@ -103,8 +113,10 @@ fieldset {
     position: relative;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(96, 186, 95);
     border: none;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 legend {
@@ -156,4 +168,10 @@ button {
 a {
     color: rgb(200,200,200);
     text-decoration: none;
+}
+
+:focus {
+    outline: 0;
+    border: 2px solid grey;
+    box-shadow: 3px 3px 10px;
 }

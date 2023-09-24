@@ -8,45 +8,44 @@
 </head>
 <body>
   <div id="main-page">
-    <div id="image" class="picture">
+    <div id="image" class="picture" aria-label="Eight beautiful soaps.">
         <div id="banner">
             <img class="logo" src="./images/sagLogo.avif">
         </div>
+        <div id="credit">Photo by Mikael WC from <a href="https://www.sageandthistlehandmade.ca">Sage and Thistle</a> </div>
     </div>
 
     <div id="main-info">
         <div id="message">
             <p id="message1" class="message">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-            <p id="message2" class="message">Sign up now to get started.</p>
-            <p id="message3" class="message">You know you want to.</p>
+            <p id="message2" class="message">Sign up <i>now</i> to get started.</p>
+            <p id="message3" class="message">You <i>know</i> you want to.</p>
         </div>
         <div id="sign-up">
-            <form>
+            <form action="#" method="get">
                 <fieldset>
                     <legend>Let's do this!</legend>
                         <div id="input-section">
-                            <div id="left-row">
+                            <div id="right-row">
                                 <div id="information">
                                     <label for="first-name">First Name</label>
                                     <input id="first-name" name="first-name" type="text" />
+                                </div>
+                                <div id="information">
+                                    <label for="last-name">Last Name</label>
+                                    <input id="last-name" name="last-name" type="text" />
                                 </div>
                                 <div id="information">
                                     <label for="email">Email*</label>
                                     <input id="email" name="email" type="email" required/>
                                 </div>
                                 <div id="information">
+                                    <label for="phone-number">Phone Number</label>
+                                    <input id="phone-number" name="phone-number" type="tel" placeholder="416-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+                                </div>
+                                <div id="information">
                                     <label for="password">Password*</label>
                                     <input type="password" name="password" id="password" required>
-                                </div>
-                            </div>
-                            <div id="right-row">
-                                <div id="information">
-                                    <label for="last-name">Last Name</label>
-                                    <input id="last-name" name="last-name" type="text" />
-                                </div>
-                                <div id="information">
-                                    <label for="phone-number">Phone Number</label>
-                                    <input id="phone-number" name="phone-number" type="tel" placeholder="416-123-4567" />
                                 </div>
                                 <div id="information">
                                     <label for="confirm-password">Confirm Password*</label>
@@ -56,7 +55,7 @@
                         </div>
                 </fieldset>
 
-                <button id="btn">Create Account</button>
+                <button type="submit" id="btn">Create Account</button>
                 <div id="link">
                     <div>Already have an account? <a href="">Log in</a></div>
                 </div>
